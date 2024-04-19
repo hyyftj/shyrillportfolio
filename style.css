@@ -1,0 +1,105 @@
+body {
+    background-image: url('images/bg.jpeg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid #333; 
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.self-portfolio {
+    font-size: 30px;
+    font-weight: bold;
+    color: mediumpurple;
+    text-align: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+.displayed-name {
+    text-align: center;
+}
+.displayed-name a {
+    color: mediumpurple;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.displayed-name:hover {
+    border: 2px solid purple;
+    background-color: ghostwhite;
+    border-radius: 8px;
+}
+.self-introduction {
+     color: whitesmoke;
+    background-color: mediumpurple;
+} 
+.educational-background {
+    color: whitesmokes;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+} 
+.expertise {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+.expertise-list {
+    list-style-type: square;
+}
+.it-background {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+.applications-used {
+    color: whitesmoke;
+    background-color: mediumpurple;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #333;
+    border-color: whitesmoke;
+}
+
+th,
+td {
+    padding: 8px;
+}
+th:nth-of-type(1) {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+th:nth-of-type(2) {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+th:nth-of-type(3) {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+th:nth-of-type(4) {
+    color: whitesmoke;
+    background-color: mediumpurple;
+}
+.applications-list {
+    list-style-type: decimal;
+}
+
+h3, h4 {
+    text-align: left;
+}
